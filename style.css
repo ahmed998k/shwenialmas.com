@@ -1,16 +1,25 @@
 
 body{
-  background-color: rgb(20, 19, 19);
+  background-color: rgb(27, 24, 24);
 }
 
 
-
+ 
+img{
+  height: 100px;
+text-align: center;
+border: #bbff8b 2px solid;
+border-radius: 50%;
+display: block;
+margin: 0px auto;
+line-height: 30px;
+}
 .logo{
-    color: snow;
+    color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: underline #FF908B;
+  text-decoration: underline 7px #bbff8b;
     font-family: monospace;
     font-size: 50px;
     line-height: 70px;
@@ -20,7 +29,7 @@ i{
   color: #ffffff;
   margin: 30px;
  font-size: 30px;
-border: #FF908B solid 1px;
+border: #bbff8b solid 1px;
  height: 40px;
  width: 130px;
  padding: 3px ;
@@ -32,10 +41,10 @@ display: inline-block;
 
 
 i:hover{
-  color: rgb(216, 208, 208);
-  background-color: #000000;
+  color: rgb(0, 0, 0);
+  background-color: #bbff8b;
   transform: scale(1.1);
-  text-decoration: underline #FF908B;
+
  
 }
 
@@ -48,7 +57,7 @@ footer{
   font-size: 19px;
   text-align: center;
   font-family:monospace;
- color: #FF908B;
+ color: #bbff8b;
 }
 
 
@@ -60,13 +69,14 @@ h1{
 }
 h3{
   color: #ffffff;
-  font-size: 21px;
+  font-size: 27px;
   text-align: center;
-  text-decoration: underline #FF908B;
+ font-family: monospace;
+line-height: 20px;
+text-decoration: underline 2px #bbff8b;
 }
 .textt{
 color: #ffffff;
-text-decoration: underline 1px #ff908b;
 }
 /* For desktop: */
 .col-1 {width: 8.33%;}
