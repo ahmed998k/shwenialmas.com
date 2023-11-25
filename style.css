@@ -1,0 +1,90 @@
+
+body{
+  background-color: rgb(20, 19, 19);
+}
+
+
+
+.logo{
+    color: snow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline #FF908B;
+    font-family: monospace;
+    font-size: 50px;
+    line-height: 70px;
+}
+
+i{
+  color: #ffffff;
+  margin: 30px;
+ font-size: 30px;
+border: #FF908B solid 1px;
+ height: 40px;
+ width: 130px;
+ padding: 3px ;
+ text-align: center;
+ border-radius: 7px;
+box-shadow: 1px 8px 9px #000000;
+display: inline-block;
+}
+
+
+i:hover{
+  color: rgb(216, 208, 208);
+  background-color: #000000;
+  transform: scale(1.1);
+  text-decoration: underline #FF908B;
+ 
+}
+
+.social{
+text-align: center;
+
+}
+
+footer{
+  font-size: 19px;
+  text-align: center;
+  font-family:monospace;
+ color: #FF908B;
+}
+
+
+h1{
+  color: #ffffff;
+  font-size: 23px;
+ text-align: center;
+  letter-spacing: 2px;
+}
+h3{
+  color: #ffffff;
+  font-size: 21px;
+  text-align: center;
+  text-decoration: underline #FF908B;
+}
+.textt{
+color: #ffffff;
+text-decoration: underline 1px #ff908b;
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
