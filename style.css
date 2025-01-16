@@ -9,7 +9,7 @@ body{
 img{
   height: 100px;
 text-align: center;
-border: #910a01 10px solid;
+border: #710a01 4px solid;
 border-radius: 50%;
 display: block;
 margin: 0px auto;
@@ -20,7 +20,7 @@ line-height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-  text-decoration: underline 7px #910a01;
+  text-decoration: underline 7px #710a01;
     font-family: monospace;
     font-size: 50px;
     line-height: 70px;
@@ -31,7 +31,7 @@ i{
   color: #ffffff;
   margin: 30px;
  font-size: 30px;
-border: #910a01 solid 1px;
+border: #710a01 solid 1px;
  height: 40px;
  width: 130px;
  padding: 3px ;
@@ -46,7 +46,7 @@ transition: 1s;
 
 i:hover{
   color: rgb(0, 0, 0);
-  background-color: #910a01;
+  background-color: #710a01;
   transform: scale(1.1);
 
  
@@ -74,10 +74,10 @@ h1{
 }
 h3{
   color: #ffffff;
-  font-size: 27px;
+  font-size: 23px;
   text-align: center;
 line-height: 20px;
-text-decoration: underline 2px #910a01;
+text-decoration: underline 2px #710a01;
 font-family: 'Marhey', sans-serif;
 }
 .textt{
@@ -92,7 +92,7 @@ transition: 1s;
 
 iframe:hover{
   transform: translateY(5px);
-  border: 2px #910a01 solid ;
+  border: 2px #710a01 solid ;
 }
 
 
